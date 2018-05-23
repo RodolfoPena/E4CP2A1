@@ -1,0 +1,32 @@
+.bkg-dark{
+  background: white !important;
+}
+.img.d-block.w-100{
+  margin-top: -65px;
+}
+.center{
+  top:40%;
+}
+.footer{
+  background: rgb(16, 22, 19) !important;
+}
+
+.jumbotron{
+  margin-bottom: 0%;
+}
+.font-white{
+  color:white;
+}
+.container-fluid{
+  padding: 2% 0% 2% 0%;
+}
+
+.form-control{
+  border: 0px;
+}
+.carousel{
+  border: 0px;
+}
+.col-4{
+  padding: 1%;
+}
