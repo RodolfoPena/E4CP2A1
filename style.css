@@ -1,8 +1,9 @@
 .bg-light{
-  background: white !important;
-
+  background-color: #2A2721 !important;
 }
-
+.navbar-light{
+  color:white;
+}
 .img.d-block.w-100{
   margin-top: -65px;
 }
@@ -39,11 +40,9 @@
 div.container-fluid.footer{
   padding:0%;
 }
-
 .font-green{
   color: #2FAA51;
 }
-
 .font-brown{
   color: #2A2721;
 }
@@ -63,4 +62,13 @@ div.container-fluid.footer{
   border:0px;
   text-align:center;
   border-radius:0px;"
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
 }
