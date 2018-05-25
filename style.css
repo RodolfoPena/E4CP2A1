@@ -1,9 +1,7 @@
 .bg-light{
   background-color: #2A2721 !important;
 }
-.img.d-block.w-100{
-  margin-top: -65px;
-}
+
 .center{
   top:40%;
 }
@@ -71,4 +69,7 @@ div.container-fluid.footer{
 }
 .text-center{
   text-align: center;
+}
+h5.card-title{
+  font-size: 24px;
 }
