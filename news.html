@@ -10,7 +10,7 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar fixed-right navbar-expand-lg navbar-dark bg-light fixed-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light fixed-light">
       <a class="navbar-brand" href="./about.html">
         <img src="./images/logo-green.png" style="width:20%;padding-right:10px;">
          Fundación Niño y Cáncer</a>
@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="about-us.html">Nosotros</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Noticias</a>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">Noticias</a>
           </li>
           <button type="button" name="button" class="btn btn-success">Llamanos</button>
         </ul>
@@ -38,6 +38,39 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8">
+          <div class="last-news mt-3">
+           <div class="card" style="width: 100%;">
+             <div class="card-body">
+               <img src="./images/RecursoA.png" alt="" class="w-100">
+               <h5 class="card-title">Finalizó postulación a programa de Becas 2018</h5>
+               <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+               <p class="card-text">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+               <a href="#" class="card-link">Ver noticia</a>
+             </div>
+           </div>
+          </div>
+          <div class="last-news mt-3">
+           <div class="card" style="width: 100%;">
+             <div class="card-body">
+               <img src="./images/RecursoA.png" alt="" class="w-100">
+               <h5 class="card-title">Finalizó postulación a programa de Becas 2018</h5>
+               <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+               <p class="card-text">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+               <a href="#" class="card-link">Ver noticia</a>
+             </div>
+           </div>
+          </div>
+          <div class="last-news mt-3">
+           <div class="card" style="width: 100%;">
+             <div class="card-body">
+               <img src="./images/RecursoA.png" alt="" class="w-100">
+               <h5 class="card-title">Finalizó postulación a programa de Becas 2018</h5>
+               <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+               <p class="card-text">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+               <a href="#" class="card-link">Ver noticia</a>
+             </div>
+           </div>
+          </div>
           <div class="new">
             <h1 class="display-3">Finalizó el proceso de becas 2018</h1>
             <hr class="my-4">
@@ -64,6 +97,7 @@
         <div class="col-md-4">
           <div class="tags mt-3">
             <h5>Categorias</h5>
+            <hr class="my-4">
             <button type="button" name="button" class="btn-sm btn-success mb-2">Cáncer</button>
             <button type="button" name="button" class="btn-sm btn-success mb-2">Niños</button>
             <button type="button" name="button" class="btn-sm btn-success mb-2">Deporte</button>
@@ -119,12 +153,10 @@
     </div>
     <!--Footer-->
     <div class="container-fluid background-brown font-white">
-      <div class="row justify-content-center">
-          <div class="col-md-12 text-center">
-            <br>
-            <h1>Queremos escucharte</h1>
-          </div>
-        <div class="col-md-4 col-sm-12">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Toma contacto</p>
           <form>
             <div class="form-row">
               <div class="col">
@@ -144,19 +176,26 @@
                 <textarea class="form-control mb-2" rows="5" cols="40" placeholder="Comentario"></textarea>
               </div>
             </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-primary" name="button">Enviar</button>
+            </div>
           </form>
-          <button type="button" class="btn btn-primary justify-content-center" name="button">Enviar</button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Ven a visitarnos!</p>
+          <div id="contact" class="map p-0">
+            <iframe width="100%" height="265px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></iframe><br/>
+              <small>
+                  <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></a>
+              </small>
+            </iframe>
+          </div>
         </div>
       </div>
       <br>
-      <div id="contact" class="map p-0">
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></iframe><br/>
-          <small>
-              <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></a>
-          </small>
-        </iframe>
-      </div>
-      <div class="row font-white" style="background-color:black">
+
+      <div class="row font-white text-center" style="background-color:black">
         <div class="col-md-12 with-padding">
           <p>Tupango 10070 Vitacura, Santiago de Chile | Teléfonos: 22170821 - 22170811</p>
         </div>

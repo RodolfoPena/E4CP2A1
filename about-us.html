@@ -10,7 +10,7 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar fixed-right navbar-expand-lg navbar-dark bg-light fixed-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light fixed-light">
       <a class="navbar-brand" href="./about.html">
         <img src="./images/logo-green.png" style="width:20%;padding-right:10px;">
          Fundación Niño y Cáncer</a>
@@ -20,27 +20,117 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Noticias</a>
+            <a class="nav-link" href="about-us.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">Noticias</a>
           </li>
           <button type="button" name="button" class="btn btn-success">Llamanos</button>
         </ul>
       </div>
     </nav>
+    <!--header-->
+    <div class="jumbotron px-6">
+      <h1>Nosotros</h1>
+      <p class="lead">El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar. En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.</p>
+      <h5>Organización de la Fundación Niño y Cáncer</h5>
+      <h6>Consejo General</h6>
+      <p class="lead">Este consejo sobre la base de un conocimiento técnico acabado de la enfermedad a nivel nacional e internacional, dan las líneas generales del trabajo de la Fundación. Haga clic en los nombres para ver currículum:</p>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>Dr. Juan Quintana B.</td>
+                <td>Pediatra Oncólogo Clínica Las Condes</td>
+              </tr>
+              <tr>
+                <td>Dra. Anette Becker</td>
+                <td>Hospital Sotero del Río</td>
+              </tr>
+              <tr>
+                <td>Dra. Victoria Beresi</td>
+                <td>Pediatra Hemato-oncóloga</td>
+              </tr>
+              <tr>
+                <td>Dr. Felipe Espinoza C.</td>
+                <td>Hospital San Borja Arriarán</td>
+              </tr>
+              <tr>
+                <td>Dr. Carlos Rizzardini</td>
+                <td>Hospital Roberto del Río</td>
+              </tr>
+              <tr>
+                <td>Dr. Jaime Rojas</td>
+                <td>Hospital Regional Concepción</td>
+              </tr>
+              <tr>
+                <td>Dr. Eduardo Páez</td>
+                <td>Hospital Regional de Temuco</td>
+              </tr>
+              <tr>
+                <td>Sr. Fernando Manns</td>
+                <td>Productor Audiovisual</td>
+              </tr>
+              <tr>
+                <td>Sr. Daniel Lyon</td>
+                <td>Abogado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h6>Comité Ejecutivo</h6>
+      <p class="lead">Responsable directo del manejo de la Fundación. Haga clic en los nombres para ver currículum:</p>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>Dr. Juan A. Quintana</td>
+                <td>Presidente</td>
+              </tr>
+              <tr>
+                <td>Dra. Victoria Beresi</td>
+                <td>Secretaria</td>
+              </tr>
+              <tr>
+                <td>Sr. Fernando Manns</td>
+                <td>Tesorero</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h6>Directorio Ejecutivo</h6>
+      <p class="lead">  Está integrado por un grupo de profesionales y empresarios de reconocida trayectoria, cuyo principal objetivo es la obtención de recursos para los distintos proyectos</p>
+      <img src="./images/directorio.jpg" alt="" style="width:50%" class="d-flex align-text-center">
+      <p class="lead">
+      	Dr. Juan A. Quintana B.
+      	Sr. Fernando Manns O.
+      	Sr. Carlos Ossa E.
+      	Dr. Felipe Espinoza C.
+      	Sr. Alejandro Miralles G.
+      	Dra. Victoria Beresi
+      	Sr. Daniel Lyon
+      </p>
+      </div>
+    </div>
+
+
+
+
+
 
     <!--Footer-->
     <div class="container-fluid background-brown font-white">
-      <div class="row justify-content-center">
-          <div class="col-md-12 text-center">
-            <br>
-            <h1>Queremos escucharte</h1>
-          </div>
-        <div class="col-md-4 col-sm-12">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Toma contacto</p>
           <form>
             <div class="form-row">
               <div class="col">
@@ -60,19 +150,26 @@
                 <textarea class="form-control mb-2" rows="5" cols="40" placeholder="Comentario"></textarea>
               </div>
             </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-primary" name="button">Enviar</button>
+            </div>
           </form>
-          <button type="button" class="btn btn-primary justify-content-center" name="button">Enviar</button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Ven a visitarnos!</p>
+          <div id="contact" class="map p-0">
+            <iframe width="100%" height="265px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></iframe><br/>
+              <small>
+                  <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></a>
+              </small>
+            </iframe>
+          </div>
         </div>
       </div>
       <br>
-      <div id="contact" class="map p-0">
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></iframe><br/>
-          <small>
-              <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></a>
-          </small>
-        </iframe>
-      </div>
-      <div class="row font-white" style="background-color:black">
+
+      <div class="row font-white text-center" style="background-color:black">
         <div class="col-md-12 with-padding">
           <p>Tupango 10070 Vitacura, Santiago de Chile | Teléfonos: 22170821 - 22170811</p>
         </div>

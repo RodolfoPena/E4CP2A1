@@ -1,9 +1,6 @@
 .bg-light{
   background-color: #2A2721 !important;
 }
-.navbar-light{
-  color:white;
-}
 .img.d-block.w-100{
   margin-top: -65px;
 }
@@ -57,6 +54,9 @@ div.container-fluid.footer{
 }
 .background-darkgray{
   background-color: #CECDCF;
+}
+.background-white{
+  background-color: white;
 }
 .card-appearence{
   border:0px;
