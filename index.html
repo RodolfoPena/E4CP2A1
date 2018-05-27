@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Inicio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -11,8 +10,10 @@
   </head>
   <body>
     <!--Barra Navegadora-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-light">
-      <a class="navbar-brand" href="#">Fundación Niño y Cáncer</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light fixed-light">
+      <a class="navbar-brand" href="./about.html">
+        <img src="./images/logo-green.png" style="width:20%;padding-right:10px;">
+         Fundación Niño y Cáncer</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,10 +23,10 @@
             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="about-us.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Noticias</a>
+            <a class="nav-link" href="news.html">Noticias</a>
           </li>
           <button type="button" name="button" class="btn btn-success">Llamanos</button>
         </ul>
@@ -34,7 +35,6 @@
     <!--Carusel-->
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="overlay"></div>
         <ol class="carousel-indicators">
            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="./images/RecursoB.png" alt="Second slide">
+          <img class="d-block w-100" src="./images/RecursoC.png" alt="Second slide">
           <div class="carousel-caption d-none d-md-block center">
             <h1 class="display-3">Aportamos Tratamiento</h1>
             <h3>Tratamiento integral para cáncer y leucémia</h3>
@@ -58,53 +58,238 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="./images/RecursoC.png" alt="Third slide">
+          <img class="d-block w-100" src="./images/RecursoB.png" alt="Third slide">
           <div class="carousel-caption d-none d-md-block center">
-            <h1 class="display-3">Aportamos Sonrisas</h1>
+            <h1 class="display-3">Aportamos Alegría</h1>
             <h3>Más calidad de vida para nuestros niños</h3>
-            <button type="button" name="button" class="btn-lg btn-primary mt-3">Llamanos</button>
+            <button type="button" name="button" class="btn-lg btn-primary mt-3">Llámanos</button>
           </div>
         </div>
       </div>
     </div>
-    <!--Section2-->
+    <!--Nosotros-->
     <div class="jumbotron">
-      <h1 class="display-4">Lo que nos mueve</h1>
-      <p class="lead">La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar</p>
-      <hr class="my-4">
-      <p>Revisa aquí mas sobre nosotros y la forma de poder colaborar</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Saber Más</a>
+      <div class="row justify-content-center">
+        <div class="col-md-5 text-right">
+          <h1>Lo que nos <span class="font-green">mueve</span></h1>
+          <p class="lead">La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar</p>
+        </div>
+        <div class="col-md-5">
+          <img src="./images/smile-green.png" style="width:90%; position:relative; left:0;top:0;right:0;bottom:0;">
+        </div>
+      </div>
+      <div class="row text-center justify-content-center">
+        <div class="col-md-11">
+          <br>
+          <h3>Necesitamos la colaboración solidaria  de la comunidad, para lograr <span class="font-green">transformar la cara triste de la enfermedad en una cara feliz</span> con esperanzas para estos pequeños que luchan día a día por su vida.</h3>
+        </div>
+      </div>
+    </div>
+    <!--Colaboration-->
+    <div class="jumbotron background-white" id="with-padding">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1><span class="font-green">8</span> Formas concretas de aportar</h1>
+          <p class="lead">No hay excusas, facilitamos la forma en que nos puedas aportar</p>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron background-white">
+      <div class="row">
+        <div class="col-md-3 mb-4" >
+          <div class="card card-appearence">
+              <div class="card-body background-lightgray font-brown">
+                <h4 card-title>Asociandote</h4>
+                <p class="card-text">Aportando dinero en forma automática con descuento mensual en tu CC via mandato bancario</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card card-appearence">
+              <div class="card-body background-green">
+                <h4 card-title>Depositando</h4>
+                <p class="card-text">En la cuenta corriente: Nº 85999997 del Banco BCI. RUT de la Fundación: 72.169.900-5</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card card-appearence">
+              <div class="card-body background-darkgray">
+                <h4 card-title>Llamando</h4>
+                <p class="card-text">Utilizando el "Plan Niño y Cáncer" para sus llamadas internacionales estará llamando y ayudando </p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4" >
+          <div class="card card-appearence">
+              <div class="card-body background-lightgray">
+                <h4 card-title>Regalando</h4>
+                <p class="card-text">Puedes entregar tu celular viejo en nuestra oficina ubicada en Tupungato 10070, Vitacura</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-appearence">
+              <div class="card-body background-green font-brown">
+                <h4 card-title>Acercándote</h4>
+                <p class="card-text">A las alcancías de los Pronto y Punto Copec, Librería Nacional, Aeropuerto de Santiago, entre otros.</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-appearence">
+              <div class="card-body background-darkgray">
+                <h4 card-title>Comprando</h4>
+                <p class="card-text">Coronas de caridad de la Fundación. Solicítalas llamando al 22170821 ó al 22170820 (Santiago)</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-appearence">
+              <div class="card-body background-brown font-white">
+                <h4 card-title>Donando</h4>
+                <p class="card-text">A través de la emisión de certificados de donación como gasto deducible de impuestos (D.L. 3.063)</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-appearence">
+              <div class="card-body background-green font-brown">
+                <h4 card-title>Aportando</h4>
+                <p class="card-text">A través del sistema Web Pay Plus de Transbank con Visa, Mastercard, Magana, ó Débito</p>
+                <a href="#" class="card-link">Más información</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Foto-->
+    <div class="jumbotron without-padding">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./images/cancer-boy.jpg" alt="" style="width:100%">
+        </div>
+        <div class="col-md-6 text-left">
+          <h1>Por un mundo mejor</h1>
+          <p class="lead"> La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar. <br><br> Sus objetivos principales son:
+            Apoyar el tratamiento  de la enfermedad,
+            Generamos espacios de recreación y mejoramos la calidad de vida del niño durante y después de su tratamiento,
+            Rehabilitamos al niño tratado y posteriormente lo integramos a la  sociedad (Becas de Estudios), y
+            Damos apoyo social y solidario a la familia del niño (Departamentos de Acogida, almuerzo para padres de niños hospitalizados, Cenas de Navidad, etc.)
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Colaboradores-->
+    <div class="container-fluid with-padding">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-6">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-3 ">
+              <p class="lead ml-3 mt-3"> Colaboradores:</p>
+            </div>
+            <div class="col-md-3">
+              <img src="./images/nestle.png" alt="" class="w-100">
+            </div>
+            <div class="col-md-3">
+              <img src="./images/provi.png" alt="" class="w-100">
+            </div>
+            <div class="col-md-3">
+              <img src="./images/nacional.png" alt="" class="w-100">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-3">
+              <img src="./images/falabella.png" alt="" class="w-100">
+            </div>
+            <div class="col-md-3">
+              <img src="./images/arcor.png" alt="" class="w-100">
+            </div>
+            <div class="col-md-3">
+              <img src="./images/radisson.png" alt="" class="w-100">
+            </div>
+            <div class="col-md-3">
+              <img src="./images/mercurio.png" alt="" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--Noticias-->
-    <div class="jumbotron">
+    <div class="container-fluid background-lightgray" id="with-padding">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <h1>Actividades recientes</h1>
+          <p class="lead">No sólo hay que preocuparse del cuerpo de los pacientes, sino que también del espíritu </p>
+          <button type="button" class="btn btn-primary">Más Actividades</button>
+        </div>
+      </div>
+      <hr class="my-4">
       <div class="row">
-        <div class="col-4">
-          <h2>Heading</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Finalizó postulación a programa de Becas 2018</h5>
+              <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+              <p class="card-text">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+              <a href="new.html" class="card-link">Ver noticia</a>
+            </div>
+          </div>
         </div>
-        <div class="col-4">
-          <h2>Heading</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Una noche de música, sorpresas y generosidad</h5>
+              <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+              <p class="card-text">La velada estuvo animada por nuestro amigo y permanente colaborador Checho Hirane, además de contar con la extraordinaria presentación de Andrea Tessa y otros artistas invitados.</p>
+              <a href="new.html" class="card-link">Ver noticia</a>
+            </div>
+          </div>
         </div>
-        <div class="col-4">
-          <h2>Heading</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Montaña de la alegría 2017 en Fundación N&C</h5>
+              <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+              <p class="card-text">El objetivo de este Programa es demostrar a los participantes, que su impedimento físico no los limita para plantearse y superar desafíos, tales como el aprender a esquiar y que con ...</p>
+              <a href="#" class="card-link">Ver noticia</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Agradecimiento a nuestros colaboradores y socios</h5>
+              <h6 class="card-subtitle mb-2 text-muted">23 de Agosto 2018</h6>
+              <p class="card-text">Fundación Niño y Cáncer agradece sinceramente a todas las empresas, socios, particulares, colegios y a cada uno de ustedes por su valiosa colaboración prestada durante el periodo 2016      ... </p>
+              <a href="new.html" class="card-link">Ver noticia</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!--Footer-->
-    <div class="container-fluid footer font-white">
-      <div id="contact" class="map">
-        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br/>
-          <small>
-              <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-          </small>
-        </iframe>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-4">
+    <div class="container-fluid background-brown font-white">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Toma contacto</p>
           <form>
-            <h5>Contacto</h5>
             <div class="form-row">
               <div class="col">
                 <input type="text" class="form-control mb-2" placeholder="Nombre">
@@ -123,49 +308,28 @@
                 <textarea class="form-control mb-2" rows="5" cols="40" placeholder="Comentario"></textarea>
               </div>
             </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-primary" name="button">Enviar</button>
+            </div>
           </form>
-          <button type="button" class="btn btn-primary justify-content-center" name="button">Enviar</button>
         </div>
-        <div class="col-4">
-          <form>
-            <h5>Dirección</h5>
-            <address class="">
-              <p>Tupungato 10070 <br>
-              Vitacura,<br>
-              Santiago de Chile <br>
-              22170821 - 22170811</p>
+        <div class="col-sm-12 col-md-6">
+          <br>
+          <p class="lead">Ven a visitarnos!</p>
+          <div id="contact" class="map p-0">
+            <iframe width="100%" height="265px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></iframe><br/>
+              <small>
+                  <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447663!2d-70.53933968476593!3d-33.383878980793156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527205233108"></a>
+              </small>
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <br>
 
-            </address>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+      <div class="row font-white text-center" style="background-color:black">
+        <div class="col-md-12 with-padding">
+          <p>Tupango 10070 Vitacura, Santiago de Chile | Teléfonos: 22170821 - 22170811</p>
         </div>
       </div>
     </div>
