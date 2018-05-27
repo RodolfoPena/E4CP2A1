@@ -1,9 +1,7 @@
-.bkg-dark{
-  background: white !important;
+.bg-light{
+  background-color: #2A2721 !important;
 }
-.img.d-block.w-100{
-  margin-top: -65px;
-}
+
 .center{
   top:40%;
 }
@@ -17,8 +15,15 @@
 .font-white{
   color:white;
 }
-.container-fluid{
-  padding: 2% 0% 2% 0%;
+#with-padding.container-fluid  {
+  padding: 2% 2% 2% 2%;
+}
+#without-padding.container-fluid{
+  padding: 0%;
+}
+
+#without-padding.col-md-3{
+  padding: 0%;
 }
 
 .form-control{
@@ -27,6 +32,44 @@
 .carousel{
   border: 0px;
 }
-.col-4{
-  padding: 1%;
+div.container-fluid.footer{
+  padding:0%;
+}
+.font-green{
+  color: #2FAA51;
+}
+.font-brown{
+  color: #2A2721;
+}
+.background-green{
+  background-color: #2FAA51;
+}
+.background-brown{
+  background-color: #2A2721;
+}
+.background-lightgray{
+  background-color: #EDEDED;
+}
+.background-darkgray{
+  background-color: #CECDCF;
+}
+.background-white{
+  background-color: white;
+}
+.card-appearence{
+  border:0px;
+  text-align:center;
+  border-radius:0px;"
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+h5.card-title{
+  font-size: 24px;
 }
